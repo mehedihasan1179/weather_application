@@ -158,6 +158,77 @@ hr{
     }
 }
 
+@media screen and (max-width: 376px){
+
+    .search input{
+        width: 70%;   
+    }
+
+    .weather img{
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .weather h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .card{
+        width: 90%;
+        max-width: 470px;
+        color: #fff; 
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+   
+
+    .details{
+        display: none;
+    }
+}
+@media screen and (max-width: 390px){
+    .search input{
+        width: 70%;   
+    }
+    .card{
+        width: 85%;
+        max-width: 470px;
+        color: #fff; 
+        padding: 20px 15px;
+        text-align: center;
+    }
+    .weather img{
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .weather h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .col img{
+        width: 40px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .search input{
+        width: 60%;
+        
+    }
+
+    .card{
+        width: 85%;
+        max-width: 470px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
+
 
 
 
